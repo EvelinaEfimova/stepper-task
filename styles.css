@@ -1,0 +1,65 @@
+body {
+   margin: 0;
+}
+
+.wrapper {
+   padding-top: 100px;
+   margin: auto;
+   width: 68%;
+}
+
+.stepBar {
+   display: flex;
+   justify-content: space-around;
+}
+
+.stepBar__step-first,
+.stepBar__step-second {
+   position: relative;
+   width: 310px;
+   height: 60px;
+   font: 22px/25px Roboto, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(90deg, transparent 15px, rgb(32, 157, 214) 0) top left,
+      linear-gradient(-120deg, transparent 15px, rgb(32, 157, 214) 0) top right,
+      linear-gradient(-58deg, transparent 15px, rgb(32, 157, 214) 0) bottom right,
+      linear-gradient(90deg, transparent 15px, rgb(32, 157, 214) 0) bottom left;
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+}
+
+.stepBar__step-second {
+   background: linear-gradient(58deg, transparent 15px, rgb(32, 157, 214) 0) top left,
+      linear-gradient(-120deg, transparent 15px, rgb(32, 157, 214) 0) top right,
+      linear-gradient(-58deg, transparent 15px, rgb(32, 157, 214) 0) bottom right,
+      linear-gradient(120deg, transparent 15px, rgb(32, 157, 214) 0) bottom left;
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+}
+
+.stepBar__step-second_active {
+   background: linear-gradient(58deg, transparent 15px, rgb(67, 179, 67) 0) top left,
+      linear-gradient(-120deg, transparent 15px, rgb(67, 179, 67) 0) top right,
+      linear-gradient(-58deg, transparent 15px,rgb(67, 179, 67) 0) bottom right,
+      linear-gradient(120deg, transparent 15px, rgb(67, 179, 67) 0) bottom left;
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+}
+
+.stepBar__step-third {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 310px;
+   height: 60px;
+   font: 22px/25px Roboto, sans-serif;
+   background: linear-gradient(58deg, transparent 15px, rgb(32, 157, 214) 0) top left,
+      linear-gradient(-90deg, transparent 15px, rgb(32, 157, 214) 0) top right,
+      linear-gradient(-90deg, transparent 15px, rgb(32, 157, 214) 0) bottom right,
+      linear-gradient(120deg, transparent 15px, rgb(32, 157, 214) 0) bottom left;
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+}
